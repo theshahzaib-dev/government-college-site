@@ -79,6 +79,15 @@ export default function Footer() {
           {collegeConfig.name}
         </Link>
         . All Rights Reserved.
+        <p className="text-sm mt-2 opacity-60 hover:opacity-100 transition-opacity">
+          Designed & Developed by{" "}
+          <a
+            href="mailto:theshahzaib.dev@gmail.com"
+            className="text-brand-accent hover:underline"
+          >
+            Muhammad Shahzaib
+          </a>
+        </p>
       </div>
     </footer>
   );

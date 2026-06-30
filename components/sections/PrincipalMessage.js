@@ -7,7 +7,7 @@ const PrincipalMessage = () => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white rounded-2xl border border-slate-100 p-8 lg:p-12 shadow-md flex flex-col lg:flex-row items-center gap-12">
           <div className="w-48 h-48 lg:w-64 lg:lh-64 bg-slate-100 rounded-full flex-shrink-0 border-4 border-slate-50 shadow-inner flex items-center justify-center text-slate-300 text-sm">
-            <img src={"/assets/images/principal.jpg"} />
+            <img src={"/assets/images/team/principal.png"} />
           </div>
           <div>
             <span className="text-brand-accent font-bold tracking-wider uppercase text-xs">
