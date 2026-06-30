@@ -16,7 +16,7 @@ export default function Footer() {
         {/* Identity block */}
         <div className="space-y-4">
           <div className="flex items-center space-x-3 text-white">
-            <Landmark className="h-6 w-6 text-amber-400" />
+             <img src="/assets/images/logo-white.png" className="h-12 w-12 object-contain" alt="Logo" />
             <span className="font-bold tracking-wider text-xl uppercase">
               {collegeConfig.shortName}
             </span>
