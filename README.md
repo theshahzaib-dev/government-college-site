@@ -1,5 +1,38 @@
-GPCE Institutional PortalA high-performance, scalable, and responsive web portal built specifically for government academic institutions. This project focuses on professional branding, clean information architecture, and a "Prestige" aesthetic using a Deep Charcoal and Gold color palette.🚀 Key FeaturesPrestige-First Design: Implemented with a Deep Charcoal (#0f1822) and Gold (#dda536) theme to project institutional authority and stability.Data-Driven Architecture: Navigation, site metadata, and faculty information are centralized in data/mockData.js, making content updates instant and error-free.Component-Based UI: Reusable "Prestige Hero" headers, faculty grid cards, and custom dropdown navigations.Responsive & Mobile-First: Fully optimized for all screen sizes with a clean mobile-sidebar menu.Next.js Optimization: Leverages Server Components and efficient image handling for lightning-fast load times.🛠 Tech StackToolPurposeNext.js 15+React Framework for productionTailwind CSSStyling and responsive design systemLucide ReactScalable, high-quality vector iconsNode.jsJavaScript runtime environmentVercelDeployment platform📂 Project StructurePlaintext├── app/              # Next.js App Router (Pages & Layouts)
+readme_content = """# GPCE Institutional Portal
+
+A high-performance, professional web portal built for government academic institutions. This project leverages a data-driven architecture to provide a consistent, secure, and accessible user experience with a "Prestige" aesthetic.
+
+## 🚀 Key Features
+
+* **Institutional Branding:** Custom Deep Charcoal (`#0f1822`) and Gold (`#dda536`) design system optimized for professional, trustworthy, government-style presentation.
+* **Data-Driven Architecture:** Navigation links, faculty data, and college configuration are centralized in `data/mockData.js`, making site-wide updates instant.
+* **Component-Based UI:** Features a library of reusable, production-ready components:
+    * `PageHero`: Consistent header component for all sub-pages.
+    * `FacultyCard`: Standardized, responsive staff profiles.
+    * `Dropdown`: Dynamic navigation with hover-states and active-path detection.
+    * `ScrollToTop`: Professional UX interaction for long pages.
+* **Performance:** Built with Next.js 15+ and Tailwind CSS v4, utilizing `next/image` for optimized loading and preventing layout shifts.
+* **Responsive:** Mobile-first approach with a custom sidebar for mobile navigation.
+
+## 🛠 Tech Stack
+
+| Tool | Purpose |
+| :--- | :--- |
+| **Next.js 15+** | React Framework for production |
+| **Tailwind CSS** | Styling and responsive design system |
+| **Lucide React** | Scalable, high-quality vector icons |
+| **Node.js** | JavaScript runtime environment |
+
+## 📂 Project Structure
+
+```text
+├── app/              # Next.js App Router (Pages & Layouts)
 ├── components/       # Reusable UI components
+│   ├── global/       # Navbar, Footer, PageHero, Dropdown
+│   ├── ui/           # FacultyCard, Buttons, etc.
+├── data/             # Centralized Mock Data & Configuration
+├── public/           # Static Assets (Images, Logos)
+└── styles/           # Global Tailwind CSS configurations├── components/       # Reusable UI components
 │   ├── global/       # Navbar, Footer, PageHero, Dropdown
 │   ├── ui/           # FacultyCard, Buttons, etc.
 ├── data/             # Centralized Mock Data / Config
